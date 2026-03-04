@@ -1511,6 +1511,32 @@ tbody tr:nth-child(odd) {
 background-color: #f7f7da;
 }
 
+/* Datenschutz */
+
+.datenschutz {
+  background-color: #F0EEE9;
+}
+
+.datenschutz ul li a{
+  color: #626262;
+}
+
+.datenschutz ul {
+  margin-left: 20px;
+  list-style:circle;
+}
+
+.datenschutz a {
+  color: #626262;
+  text-decoration: underline;
+}
+
+
+/*  
+.rechtliches {
+font-size: 1.1rem;
+}*/
+
 /* Media Queries */
  
 @media only screen and (max-width: 1249px) {
@@ -2012,6 +2038,11 @@ left: 0px;
 margin-left: 0;
 }
 
+body {
+font: 1.1rem/1.45 "Work Sans", Arial, Helvetica, sans-serif;
+color: #474847;
+}
+
 .what_I_do h1{
 font-size: 3.188rem; /* 51px; */ 
 }
@@ -2042,6 +2073,15 @@ font-size: 3.188rem; /* 51px; */
   margin-top: 240px;
   margin-left: 20px;
 }
+
+.about{ 
+min-height:700px;
+}
+
+.datenschutz {
+white-space: wrap;
+}
+
 }
 
 /* CSS-Anweisungen Smartphones kleiner */
@@ -2068,7 +2108,7 @@ font-weight: 500;
 } 
  
 h3{    
-font-size: 2rem; /* 32px; */  
+font-size: 1.875rem; /* 30px; */  
 font-weight: 500; 
 text-transform: uppercase;
 }
@@ -2116,6 +2156,10 @@ font-size: 3.188rem; /* 51px; */
 font-size: 14px;
 }
 
+.about{ 
+min-height:200px;
+}
+
 .about-me .button {
   position: absolute;
   margin-top: 140px;
@@ -2151,5 +2195,13 @@ width: 310px;
   width: 100px;
   margin: 0 1rem ; 
 } 
+
+.datenschutz h2{    
+font-size: 2.2rem;
+}
+
+.datenschutz h3{    
+font-size: 1.5rem;
+}
 
 }
